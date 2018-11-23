@@ -1,0 +1,21 @@
+{
+  "name": "nodecmsapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.6",
+    "nodemailer": "^4.7.0"
+  },
+  "devDependencies": {
+    "ejs": "^2.6.1",
+    "pretty-js": "^0.2.0"
+  }
+}

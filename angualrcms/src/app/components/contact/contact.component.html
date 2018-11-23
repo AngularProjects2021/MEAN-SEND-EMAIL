@@ -1,0 +1,34 @@
+    <div class="container"><br />
+      <h1>Send The Email</h1><br />
+      <form novalidate #c="ngForm" (ngSubmit)="sendContact(c)">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="form-group col-md-4">
+            <label for="to">To:</label>
+            <input type="email" class="form-control" name="to"  [(ngModel)]="to">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="form-group col-md-4">
+            <label for="subject">Subject:</label>
+            <input type="text" class="form-control" name="subject"  [(ngModel)]="subject">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4"></div>
+            <div class="form-group col-md-4">
+              <label for="body">Body:</label>
+              <textarea cols="5" rows="5"class="form-control" name="body"  [(ngModel)]="body"></textarea>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="form-group col-md-4">
+            <button type="submit" class="btn btn-success">Send</button>
+          </div>
+        </div>
+      </form>
+    </div>
